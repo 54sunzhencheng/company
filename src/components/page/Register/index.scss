@@ -1,0 +1,52 @@
+.app-register-box{
+    .form{
+        .group{
+            height: 0.48rem;
+            padding: 0.2rem 0.3rem;
+            border-bottom: 1px solid #ccc;
+            p{
+                display: flex;
+                justify-content: space-between;
+                text-align: left;
+                font: 0.32rem/0.48rem "";
+                i{
+                    display: inline-block;
+                    width: 0.32rem;
+                    height: 0.32rem;
+                    margin-right: 0.16rem;
+                }
+                input{
+                    
+                    width: 6.48rem;
+                    border: 0;
+                }
+            }
+        }
+        .forget{
+            padding: 0.16rem 0.3rem;
+            font: 0.32rem/0.48rem "";
+            text-align: left;
+            i{
+                display: inline-block;
+                width: 0.32rem;
+                height: 0.32rem;
+                margin-right: 0.16rem;
+                color:#fb223e;
+            }
+            a{
+                color:#fb223e;
+            }
+        }
+        .button-login{
+            height: 1rem;
+            margin: 0.1rem auto;
+            width: 96%;
+            border: 0.01rem solid #e5e5e5;
+            background: #e8e8e8;
+            border-radius: 0.6rem;
+            color: #999;
+            font-size: 0.32rem;
+        }
+        
+    }
+}

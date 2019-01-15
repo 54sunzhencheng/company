@@ -1,0 +1,33 @@
+@import '../../../stylesheets/base.scss';
+.app-footer-box{
+	background: #fff;
+	position: fixed;
+	z-index: 99;
+	bottom: 0;
+	width: 100%;
+	margin-top: 1rem;
+	ul{
+		display: flex;
+		justify-content: space-around;
+		li{
+			height: 1rem;
+			width: 1.5rem;
+			a{
+				height: 1rem;
+				width: 1.5rem;
+				display: block;
+				text-align: center;
+				color: $baseColor;
+				&.active{
+					color: $baseActiveColor;
+				}
+				i{
+					display: block;
+					font-size: 0.4rem;
+					margin: 0.1rem auto;
+					
+				}
+			}
+		}
+	}
+}
